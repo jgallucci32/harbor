@@ -1,0 +1,17 @@
+# The Docker image to run your workspace in. Defaults to gitpod/workspace-full
+image: registry.devlnk.net/gitpod/workspace-full:latest
+
+# Go projects without module support need a specific workspace layout: the
+# source code of your repository and its dependencies must be in the directories
+#checkoutLocation: "go/src/gitlab.devlnk.net/joker/bisf-cli"
+#workspaceLocation: "go/src/gitlab.devlnk.net/joker/bisf-cli"
+
+# Command to start on workspace startup (optional)
+#tasks:
+#  - command: |
+#      go get -v ./...
+
+# Ports to expose on workspace startup (optional)
+#ports:
+#  - port: 8000
+#    onOpen: open-preview
